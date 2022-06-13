@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,400,700);
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Exo 2", sans-serif;
+  color: #333;
+}
+
+.card {
+  position: relative;
+  width: 315px; /* Remove for full width */
+  height: 450px; /* Remove for full width */
+  margin: 30px auto;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+}
+.card-header {
+  position: relative;
+  height: 220px;
+  background-size: cover;
+  background-position: top;
+}
+
+.card-header-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  border: none;
+  overflow: hidden;
+}
+.btn-message {
+  display: inline-block;
+  background: url(https://res.cloudinary.com/dj14cmwoz/image/upload/v1491077483/profile-card/images/message.svg)
+    no-repeat;
+  width: 19.37px;
+  height: 16.99px;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+}
+.btn-menu {
+  display: inline-block;
+  background: url(https://res.cloudinary.com/dj14cmwoz/image/upload/v1491077483/profile-card/images/menu.svg)
+    no-repeat;
+  width: 19px;
+  height: 12.16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.card-header-slanted-edge {
+  position: absolute;
+  bottom: -3px;
+  z-index: 1;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
